@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Q5</title>
+</head>
+<body>
+<script type="text/javascript">
+	function Print()
+	{
+		
+		for (i=1; i<=100; i++)
+		{
+			if(i%3==0 & i%5!=0){
+				document.write("Fizz"+ "<br>");
+			}
+			else if (i%5==0 & i%3!=0){
+				document.write("Buzz" + "<br>");
+			}
+			else if (i%3==0 & i%5==0){
+				document.write("FizzBuzz" + "<br>");
+			}
+			else{
+				document.write("Invalid" + "<br>");
+			}
+		}
+	}
+</script>
+<input type="button" value="Print" onClick='Print();'>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Q4</title>
+</head>
+<body>
+<script type="text/javascript">
+	function MinAndMax()
+	{
+		var array= [54,63,17,34,5,97];
+		
+		for(i=0; i<array.length; i++)
+		{
+			document.write(array[i]+ ",");
+		} 
+		
+		document.write("<br>");
+		
+		document.write("Maximum value is" + " " + Math.max.apply(null, array) );
+		document.write("<br>");
+		document.write("Minimum value is" + " " + Math.min.apply(null,array) );
+		
+		
+		
+	}
+</script>
+<input type="button" value="FindMinMax" onClick='MinAndMax();'>
+</body>
+</html>
